@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protein Function Prediction Papers</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background-color: #4caf50;
+        color: white;
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+      .title {
+        font-weight: bold;
+        color: #2c3e50;
+      }
+      .year {
+        text-align: center;
+        font-weight: bold;
+        color: #e74c3c;
+      }
+      .journal {
+        font-style: italic;
+        color: #8e44ad;
+      }
+      .insights {
+        max-width: 400px;
+        word-wrap: break-word;
+        line-height: 1.4;
+      }
+      .year-2025 {
+        background-color: #e8f5e8;
+      }
+      .year-2024 {
+        background-color: #e8f4f8;
+      }
+      .year-2023 {
+        background-color: #f8f4e8;
+      }
+      .year-2022 {
+        background-color: #f8e8f4;
+      }
+      .year-2021 {
+        background-color: #f4e8f8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Protein Function Prediction Papers</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Journal/Conference</th>
+            <th>Year</th>
+            <th>Key Insights</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="year-2025">
+            <td class="title">
+              DPFunc: accurately predicting protein function via deep learning
+              with domain-guided structure information
+            </td>
+            <td>Zhang et al.</td>
+            <td class="journal">Nature Communications</td>
+            <td class="year">2025</td>
+            <td class="insights">
+              Introduces domain-guided structure information with GNNs and
+              attention mechanisms. Achieves 8-16% improvement in Fmax over
+              GAT-GO across molecular function, cellular component, and
+              biological process prediction.
+            </td>
+          </tr>
+          <tr class="year-2025">
+            <td class="title">
+              Deep learning methods for protein function prediction
+            </td>
+            <td>Boadu et al.</td>
+            <td class="journal">Proteomics</td>
+            <td class="year">2025</td>
+            <td class="insights">
+              Comprehensive review of deep learning methods including CNNs,
+              RNNs, transformers, and protein language models. Identifies key
+              challenges in rare function prediction and structure integration.
+            </td>
+          </tr>
+          <tr class="year-2025">
+            <td class="title">
+              Evaluating the advancements in protein language models for protein
+              function prediction
+            </td>
+            <td>Liu et al.</td>
+            <td class="journal">PMC/Review</td>
+            <td class="year">2025</td>
+            <td class="insights">
+              Systematic review of protein language models evolution from
+              LSTM-based to transformer architectures. Demonstrates superior
+              performance of PLMs in capturing sequence-function relationships.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              TAWFN: a deep learning framework for protein function prediction
+            </td>
+            <td>Meng & Wang</td>
+            <td class="journal">Bioinformatics</td>
+            <td class="year">2024</td>
+            <td class="insights">
+              Two-model adaptive weight fusion network (TAWFN) combining CNN and
+              GCN for structure-based prediction. Achieved AUPR of 0.718, 0.385,
+              0.488 for MF, BP, CC tasks respectively.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              Enhanced prediction of protein functional identity through the
+              integration of sequence and structural similarities
+            </td>
+            <td>Joudaki et al.</td>
+            <td class="journal">
+              Computational and Structural Biotechnology Journal
+            </td>
+            <td class="year">2024</td>
+            <td class="insights">
+              Machine learning approach analyzing sequence and structural
+              similarities for enzymatic function prediction. Demonstrates
+              improved accuracy through multi-modal feature integration.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              Functional Annotation of Proteomes Using Protein Language Models
+            </td>
+            <td>Gomez-Perez et al.</td>
+            <td class="journal">Methods in Molecular Biology</td>
+            <td class="year">2024</td>
+            <td class="insights">
+              FANTASIA tool utilizing ProtTrans embeddings for large-scale
+              proteome annotation. Shows superior per-protein annotation
+              precision for functional genomics applications.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              Evaluating large language models for annotating proteins
+            </td>
+            <td>Menéndez-Hurtado et al.</td>
+            <td class="journal">PMC/Bioinformatics</td>
+            <td class="year">2024</td>
+            <td class="insights">
+              Evaluation of protein language models (ESM, ProtTrans) with
+              transfer learning for Pfam annotation. Achieved impressive 60%
+              error reduction compared to standard methods.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              FAPM: functional annotation of proteins using multimodal models
+              beyond structural modeling
+            </td>
+            <td>Xiang et al.</td>
+            <td class="journal">Bioinformatics</td>
+            <td class="year">2024</td>
+            <td class="insights">
+              Novel multimodal contrastive learning framework combining protein
+              language models with natural language models. Generates functional
+              annotations in natural language, achieving state-of-the-art on
+              public benchmarks and phage proteins.
+            </td>
+          </tr>
+          <tr class="year-2024">
+            <td class="title">
+              Using deep learning and large protein language models to predict
+              membrane-interacting amino acids
+            </td>
+            <td>Chatzigkioulias et al.</td>
+            <td class="journal">PMC/Bioinformatics</td>
+            <td class="year">2024</td>
+            <td class="insights">
+              Application of ESM and ProtTrans models for protein-membrane
+              interface prediction. Achieved F1 scores of 0.8 and 0.77
+              respectively, with significant speed improvements.
+            </td>
+          </tr>
+          <tr class="year-2023">
+            <td class="title">
+              Current successes and remaining challenges in protein function
+              prediction
+            </td>
+            <td>Radivojac et al.</td>
+            <td class="journal">Frontiers in Bioinformatics</td>
+            <td class="year">2023</td>
+            <td class="insights">
+              Analysis of CAFA challenges and current limitations. Highlights
+              need for structure integration, rare function prediction, and
+              better evaluation metrics in computational approaches.
+            </td>
+          </tr>
+          <tr class="year-2023">
+            <td class="title">
+              ProteInfer, deep neural networks for protein functional inference
+            </td>
+            <td>Sanderson et al.</td>
+            <td class="journal">eLife</td>
+            <td class="year">2023</td>
+            <td class="insights">
+              Deep convolutional neural networks for direct EC number and GO
+              term prediction from sequences. Achieves competitive performance
+              with lightweight, browser-based interface for real-time
+              prediction.
+            </td>
+          </tr>
+          <tr class="year-2023">
+            <td class="title">
+              In silico protein function prediction: the rise of machine
+              learning-powered approaches
+            </td>
+            <td>Zhou et al.</td>
+            <td class="journal">PMC/Review</td>
+            <td class="year">2023</td>
+            <td class="insights">
+              Review highlighting protein language models (ProtTrans, ESM) as
+              breakthrough methods. Shows 60% error reduction compared to
+              traditional methods in protein family classification.
+            </td>
+          </tr>
+          <tr class="year-2023">
+            <td class="title">
+              Transformer-based deep learning for predicting protein properties
+              in the life sciences
+            </td>
+            <td>Grønbech et al.</td>
+            <td class="journal">eLife</td>
+            <td class="year">2023</td>
+            <td class="insights">
+              Comprehensive review of transformer applications in protein
+              property prediction. Analyzes attention mechanisms, pre-training
+              strategies, and interpretability in protein sequence analysis.
+            </td>
+          </tr>
+          <tr class="year-2022">
+            <td class="title">
+              A Review of Deep Learning Techniques for Protein Function
+              Prediction
+            </td>
+            <td>Aggarwal & Hasija</td>
+            <td class="journal">arXiv/INCET</td>
+            <td class="year">2022</td>
+            <td class="insights">
+              Comprehensive analysis of CNN, RNN, and transformer architectures
+              for protein function prediction. Emphasizes emergence of
+              attention-based models and multi-modal learning approaches.
+            </td>
+          </tr>
+          <tr class="year-2021">
+            <td class="title">
+              Structure-based protein function prediction using graph
+              convolutional networks
+            </td>
+            <td>Gligorijević et al.</td>
+            <td class="journal">Nature Communications</td>
+            <td class="year">2021</td>
+            <td class="insights">
+              DeepFRI uses graph convolutional networks with protein language
+              model features. Demonstrated robustness to structure prediction
+              errors and achieved residue-level functional site identification.
+            </td>
+          </tr>
+          <tr class="year-2021">
+            <td class="title">
+              Accurate protein function prediction via graph attention networks
+              with predicted structure information
+            </td>
+            <td>Gligorijević et al.</td>
+            <td class="journal">PMC/Bioinformatics</td>
+            <td class="year">2021</td>
+            <td class="insights">
+              Graph attention networks with predicted protein structures and
+              ESM-1b embeddings. Outperformed DeepFRI significantly with Fmax
+              0.637, 0.510, 0.542 for MF, BPO, CCO domains.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
