@@ -1,9 +1,9 @@
 Metric,Value
-Total Proteins,2000.0
-Mean Length,542.123
-Median Length,478.0
-Std Deviation,308.29372095485513
+Total Proteins,554681.0
+Mean Length,348.29693102882555
+Median Length,299.0
+Std Deviation,236.75165571970177
 Min Length,50.0
-Max Length,1488.0
-Proteins with EC,1144.0
-Proteins with GO,1843.0
+Max Length,1500.0
+Proteins with EC,275128.0
+Proteins with GO,480085.0
