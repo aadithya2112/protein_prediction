@@ -296,3 +296,7 @@ build/
 *.tar.gz
 *.zip
 *.rar
+
+
+# size too big
+data/proteins_cleaned.tsv
